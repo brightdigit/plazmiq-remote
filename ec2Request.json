@@ -1,0 +1,23 @@
+{  
+  "ImageId":"ami-d0f506b0",
+  "MaxCount":1,
+  "MinCount":1,
+  "Monitoring":{  
+    "Enabled":false
+  },
+  "InstanceType":"t2.micro",
+  "SubnetId":"subnet-3f4ef85b",
+  "BlockDeviceMappings":[  
+    {  
+      "Ebs":{  
+        "DeleteOnTermination":true,
+        "VolumeSize":500,
+        "VolumeType":"sc1"
+      },
+      "DeviceName":"/dev/sdf"
+    }
+  ],
+  "SecurityGroupIds":[  
+    "sg-06c4cc61"
+  ]
+}
